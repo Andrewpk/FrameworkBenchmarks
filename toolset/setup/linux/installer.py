@@ -402,7 +402,7 @@ class Installer:
     # Flask
     easy_install('Werkzeug==0.9.4', two=True, three=True, pypy=True)
     easy_install('flask==0.10.1', two=True, three=True, pypy=True)
-	easy_install('SQLAlchemy==0.9.3', two=True, three=True, pypy=True)
+    easy_install('SQLAlchemy==0.9.3', two=True, three=True, pypy=True)
     easy_install('Jinja2==2.7.1', two=True, three=True, pypy=True)
     easy_install('Flask-SQLAlchemy==1.0', two=True, three=True, pypy=True)
 
