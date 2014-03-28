@@ -72,3 +72,5 @@ beego/pkg/*
 
 # urweb
 urweb/*.exe
+
+deployment-configuration.sh
