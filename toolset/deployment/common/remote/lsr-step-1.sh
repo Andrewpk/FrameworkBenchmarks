@@ -55,6 +55,6 @@ echo ""
 
 echo ""
 echo "Installing benchmark software"
-toolset/run-tests.py -s "$BENCHMARK_SERVER_IP" -c "$BENCHMARK_CLIENT_IP" -d "$BENCHMARK_SQL_SERVER" -u "$BENCHMARK_SQL_SERVER_USER" -i "$BENCHMARK_KEY_PATH" --install-software --install-error-action abort --list-tests || { echo "Error installing software."; exit 1; }
+toolset/run-tests.py -s "$BENCHMARK_SERVER_IP" -c "$BENCHMARK_CLIENT_IP" -d "$BENCHMARK_SQL_SERVER" -u "$BENCHMARK_SQL_SERVER_USER" -i "$BENCHMARK_KEY_PATH" --install-software --install-error-action continue --list-tests || { echo "Error installing software."; exit 1; }
 echo ""
 echo "End of step 1"
